@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Comic Sans MS;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#fca5f1 0%, #b5ffff 100%);
+  height: 98vh;
+}
+
+code {
+  font-family: Comic Sans MS;
+}
+
+.container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: Comic Sans MS;
+}
+
+.box {
+  box-shadow: 0px 0px 100px 5px rgba(248, 244, 244, 0.75);
+  min-height: 20rem;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.box2 {
+  box-shadow: 0px 0px 100px 5px rgba(252, 248, 248, 0.75);
+  min-height: 15rem;
+  max-width: 55rem;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #8dffff;
+}
+
+button {
+  font-family: Comic Sans MS;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: transparent;
+}
